@@ -1,3 +1,6 @@
+// const funct = require('./animation');
+// funct.anim();
+
 const guestlist: string[] = [];
 
 guestlist.push("Tom");

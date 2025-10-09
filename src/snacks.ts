@@ -1,8 +1,10 @@
 const snacks: string[] = [];
 
 
-const funct = require('./animation');
-funct.anim();
+import { anim } from './animation';
+
+anim();
+
 snacks.push("Oranges");
 snacks.push("Tomatoes");
 
