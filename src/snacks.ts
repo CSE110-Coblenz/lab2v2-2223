@@ -11,6 +11,7 @@ snacks.push("pumpkin");
 snacks.push("chocolate");
 snacks.push("chicken");
 snacks.push("carrot");
+snacks.push("chips");
 
 function print() {
   for(let i = 0; i < snacks.length; i++) {
