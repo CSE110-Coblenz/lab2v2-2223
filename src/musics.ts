@@ -1,6 +1,6 @@
 const music: string[] = [];
 
-music.push("Pop");
+music.push("Indie Pop");
 music.push("Rock");
 music.push("Jazz");
 
