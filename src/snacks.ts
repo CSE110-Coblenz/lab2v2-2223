@@ -9,6 +9,8 @@ snacks.push("Zucchini");
 snacks.push("Cucumber");
 snacks.push("pumpkin");
 snacks.push("chocolate");
+snacks.push("chicken");
+snacks.push("carrot");
 
 function print() {
   for(let i = 0; i < snacks.length; i++) {
