@@ -9,3 +9,6 @@ function listMusic(music_1: string[]): void {
 }
 
 listMusic(music_1);
+const table = require('./table');
+
+table.log();
