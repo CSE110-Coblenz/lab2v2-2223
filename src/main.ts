@@ -1,3 +1,4 @@
+const snacks: string[] = [];
 const music_1: string[] = [];
 
 music_1.push("Pop");
@@ -11,4 +12,13 @@ function listMusic(music_1: string[]): void {
 listMusic(music_1);
 const table = require('./table');
 
-table.log();
+snacks.push("Cookies");
+snacks.push("Chips");
+
+function print() {
+  for(let i = 0; i < snacks.length; i++) {
+    console.log(snacks[i]);
+  }
+}
+
+print();
