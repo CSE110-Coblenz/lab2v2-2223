@@ -1,7 +1,7 @@
 const snacks: string[] = [];
 
-snacks.push("Cookies");
-snacks.push("Chips");
+snacks.push("Oranges");
+snacks.push("Tomatoes");
 
 function print() {
   for(let i = 0; i < snacks.length; i++) {
