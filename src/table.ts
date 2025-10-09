@@ -15,3 +15,5 @@ function log() {
     console.log(tableList[i]);
   }
 }
+
+log();
