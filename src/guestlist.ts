@@ -1,11 +1,11 @@
 const guestlist: string[] = [];
 
-music.push("Tom");
-music.push("Jerry");
-music.push("Mickey");
+guestlist.push("Tom");
+guestlist.push("Jerry");
+guestlist.push("Mickey");
 
 function listguest(guestlist: string[]): void {
     console.log("Guest List: " + guestlist.join(", "));
 }
 
-listMusics(guestlist);
+listguest(guestlist);
