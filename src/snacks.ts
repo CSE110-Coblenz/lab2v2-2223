@@ -1,5 +1,8 @@
 const snacks: string[] = [];
 
+
+const funct = require('./animation');
+funct.anim();
 snacks.push("Oranges");
 snacks.push("Tomatoes");
 
