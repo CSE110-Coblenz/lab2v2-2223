@@ -9,3 +9,10 @@ rl.question("input\n", (answer) => {
 
   rl.close();
 });
+
+
+function feature() {
+  console.log("This is a new feature");
+}
+
+feature();
