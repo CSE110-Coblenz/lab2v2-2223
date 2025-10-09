@@ -8,4 +8,4 @@ function listguest(guestlist: string[]): void {
     console.log("Guest List: " + guestlist.join(", "));
 }
 
-listMusics(music);
+listMusics(guestlist);
