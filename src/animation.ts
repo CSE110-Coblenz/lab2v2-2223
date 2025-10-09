@@ -11,7 +11,7 @@ const {stdin: input, stdout: output} = require('node:process');
 });*/
 function anim () {
 
-  console.log(`\x1b[3m\x1b[1mHello\x1b[0m`); // Bold
+  console.log(`\x1b[3m\x1b[1mSnacks:\x1b[0m`); // Bold
 }
 
 module.exports = {
