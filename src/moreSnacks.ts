@@ -1,4 +1,4 @@
-const snacks: string[] = [];
+import { snacks } from "./snacks";
 
 snacks.push("Cookies");
 snacks.push("Chips");
