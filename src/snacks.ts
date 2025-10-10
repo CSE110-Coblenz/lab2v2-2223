@@ -7,6 +7,7 @@ anim();
 
 snacks.push("Oranges");
 snacks.push("Tomatoes");
+snacks.push("chips");
 
 function print() {
   for(let i = 0; i < snacks.length; i++) {
