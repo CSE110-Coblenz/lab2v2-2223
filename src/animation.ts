@@ -9,7 +9,7 @@ const {stdin: input, stdout: output} = require('node:process');
 
   rl.close();
 });*/
-function anim () {
+export function anim () {
 
   console.log(`\x1b[3m\x1b[1mHello\x1b[0m`); // Bold
 }

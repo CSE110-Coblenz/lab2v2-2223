@@ -1,4 +1,4 @@
-const snacks: string[] = [];
+export const snacks: string[] = [];
 
 
 import { anim } from './animation';
