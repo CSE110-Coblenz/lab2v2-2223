@@ -1,5 +1,9 @@
 const tableList : string[] = [];
 
+module.exports = {
+  tableList,
+};
+
 tableList.push("Tablecloth");
 tableList.push("Cheddar Wheel");
 tableList.push("Brie Wheel");
