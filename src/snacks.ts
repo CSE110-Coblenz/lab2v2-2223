@@ -1,17 +1,14 @@
-const snacks: string[] = [];
+//ce98b1ca Created animation.ts and modified snacks.ts to call anim() functiononst snacks: string[] = [];
+const snacks : string[] = [];
 
+module.exports = {
+  snacks,
+};
 
-const funct = require('./animation');
+const funct = require('./animation.ts');
 funct.anim();
 snacks.push("Oranges");
 snacks.push("Tomatoes");
-snacks.push("Zucchini");
-snacks.push("Cucumber");
-snacks.push("pumpkin");
-snacks.push("chocolate");
-snacks.push("chicken");
-snacks.push("carrot");
-snacks.push("chips");
 
 function print() {
   for(let i = 0; i < snacks.length; i++) {
